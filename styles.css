@@ -13,7 +13,7 @@ body {
     position: relative;
     text-align: center;
     padding: 80px 15px;
-    background: url('new_background.jpg') no-repeat center center/cover;
+    background: url('soluciones.png') no-repeat center center/cover;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -631,4 +631,35 @@ h2 {
     50% {
         transform: scale(1.1);
     }
+}
+
+.inicio-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1.3rem;
+    background: linear-gradient(to right, #00f2ff, #0066ff);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 6px 15px rgba(183, 1, 255, 0.5);
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid white;
+
+    /* Asegura que el botón esté en la capa superior */
+    position: relative;
+    z-index: 9999;
+}
+
+.inicio-btn:hover {
+    background: linear-gradient(to right, #0059ff, #03ffd5);
+    transform: scale(1.1);
+    box-shadow: 0px 8px 20px rgba(52, 1, 255, 0.7);
+}
+
+.inicio-btn:active {
+    transform: scale(0.95);
 }
